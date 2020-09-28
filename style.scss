@@ -1,0 +1,218 @@
+@import 'background';
+@import 'background-tools';
+  
+
+//Variables
+   //colors
+
+    $primary-color : #f2f2f2;
+    $sub-heading-color:#fffdfd;
+    $heading-buttons-two:#419D78;
+    $body-color:#f4f4f4;
+    $second-body-color:#000;
+    $body-fonts:"Ropa Sans";
+    $position-place:absolute;
+    $position-move:relative;
+   //Settings for the hole page
+   *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: none;
+}
+    //Body Settings
+    body{
+        line-height: 1.6;
+    }  
+    //logo and buttons 
+
+      //logo
+
+  //background 5raaa xD
+  .second-part{
+    background-color: #fff;
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+   top: 80.7%;
+    }
+    .title{
+        position: absolute;
+        width: 173px;
+        height: 36px;
+        left: 42.9%;
+        //top: 1010px;
+        font-family: $body-fonts;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 36px;
+        color: $second-body-color;
+        margin-top: 60px;
+    }
+    .sekhra{
+        position: absolute;
+        width: 179px;
+        height: 26px;
+        left: 240px;
+        top: 236px;
+        font-family: $body-fonts;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .desc{
+        position: absolute;
+        width: 262px;
+        height: 26px;
+        left: 240px;
+        top: 274px;
+        font-family: $body-fonts;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+/* identical to box height, or 144% */
+        color: $second-body-color;
+    }
+    .order{
+        position: absolute;
+        width: 179px;
+        height: 26px;
+        left: 58%;
+        top: 315px;    
+        font-family: $body-fonts;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;  
+    }
+    .serve{
+        position: absolute;
+        width: 149px;
+        height: 26px;
+        left: 734px;
+        top: 367px;
+        font-family: $body-fonts;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 26px;
+/* identical to box height, or 144% */
+        color: $second-body-color;
+    }
+    .time{
+        position: absolute;
+        width: 292px;
+        height: 52px;
+        left: 58%;
+        top: 73%; 
+        font-family: $body-fonts;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 26px;
+/* or 144% */
+        color: $second-body-color;
+    }
+    .micro{
+        position: absolute;
+        width: 292px;
+        height: 52px;
+        left: 58%;
+        top: 79%;
+        font-family: $body-fonts;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 26px;
+        /* or 144% */
+        color: $second-body-color;
+    }
+    .third-part{
+        width: 100%;
+        height: 319.6px;
+        background-color: $heading-buttons-two;
+        position: absolute;
+        top: 160%;
+    }
+    .app{
+        width: 39%;
+        position: absolute;
+        top: -92%;
+        height: 643px;
+        left: 2%;
+        }
+        .track{
+            position: absolute;
+            width: 23%;
+            height: 52px;        
+            left: 43%;
+            top: 53px;
+            font-family: $body-fonts;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 34px;
+            line-height: 36px;
+            color: $primary-color;
+        }
+        .getin {
+            width: 205px;
+            height: 225px;
+            position: absolute;
+            left: 43%;
+            top: 22%;
+        }
+        .apple{
+            width: 250px;
+            height: 139px;
+            position: absolute;
+            left: 58%;
+            top: 42%; 
+        }
+        .bottom-nav{
+            position: absolute;
+            background-color: #f4f4f4;
+            width: 100%;
+            height: 13vh;
+            top: 195%;
+        }
+        ul{
+            position: absolute;
+            font-family: "Ropa Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 17px;
+            color: $second-body-color;
+            position: absolute;
+            left: 54%;
+            top: 20%;
+          
+            li{ 
+                display: flex;
+                float: right;
+                color: $second-body-color;
+                text-align: center;
+                padding:44px 26px;
+                text-decoration: none;
+                font-size: 18px;
+                margin-right: 80px;
+        }
+        }
+       .jibli-f{
+        position: absolute;
+        font-family: $body-fonts;
+        font-weight: 400;
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        top: 21%;
+        left: 13%;
+       }
+       .jible-logo{
+        height: 77px;
+        position: absolute;
+        -ms-flex-align: center;
+        top: 35%;
+        left: 21%;
+       }

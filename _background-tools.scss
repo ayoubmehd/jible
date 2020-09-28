@@ -1,0 +1,130 @@
+$primary-color : #f2f2f2;
+$sub-heading-color:#fffdfd;
+$heading-buttons-two:#419D78;
+$body-color:#f4f4f4;
+$second-body-color:#000;
+$body-fonts:"Ropa Sans",sans-serif;
+$position-place:absolute;
+$position-move:relative;
+.bricol{
+    color: rgb(248, 242, 242);
+    font-family:$body-fonts;
+    font-weight:300;
+    position: absolute;
+    top: 3%;
+    left: 9%;
+    margin: 2px;
+  }
+  .square{
+    width: 25px;
+    height: 37px;
+    position: absolute;
+    top: 29.4px;
+    left: 184px;;
+    margin-left: 20px;
+  }
+    //buttons
+    .sign{
+      position: absolute;
+      width: 160px;
+      height: 42px;
+      left: 885px;
+      top: 30px;
+      background: #419D78;
+      border: none;
+      border-radius: 4px;
+      color: $primary-color;
+      font-family: $body-fonts;
+      font-weight: 400;
+    }
+    .log{
+      position: absolute;
+    width: 160px;
+    height: 42px;
+    left: 1070px;
+    top: 30px;
+    border: none;
+    color: #000;
+    font-family: $body-fonts;
+    font-weight: bold;
+    background: #fff;
+    border-radius: 4px;
+    }
+    .texty{
+      position: absolute;
+      width: 798px;
+      height: 80px;
+      left: 234px;
+      top: 353px;
+      font-family: $body-fonts;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 34px;
+      line-height: 40px;
+      text-align: center;
+      color: $sub-heading-color;
+    }
+    .greenbtn{
+      position: absolute;
+    width: 350px;
+    height: 62px;
+    left: 265px;  
+    top: 470px;
+    border: none;
+    font-family: $body-fonts;
+    font-weight: 400;
+    color: $primary-color;
+    background: #419D78;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 19.3px;
+    }
+    #customer{
+      position: absolute;
+      width: 350px;
+      height: 62px;
+      left: 283px;
+      top: 486px;
+      color: $body-color;
+    }
+    #buyer{
+      position: absolute;
+      width: 4px;
+      height: 10px;
+      left: 560px;
+      top: 486px;
+      font-weight: 700;
+      color: $body-color;
+    }
+    .whitebtn{
+      position: absolute;
+      width: 350px;
+      height: 62px;
+      left: 645px;
+      top: 470px;
+      font-family: $body-fonts;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 19.3px;
+      background-color: $primary-color;
+      border: none;
+      border-radius: 4px;
+    }
+    #worker{
+      position: absolute;
+      width: 350px;
+      height: 62px;
+      left: 665px; 
+      top: 484.5px;
+      color:$second-body-color;
+    }
+    #bricoler{
+      position: absolute;
+     
+      height: 62px;
+      right: 293px;
+      top: 485px;
+      font-weight: 700;
+      color:$second-body-color;
+    }
+  

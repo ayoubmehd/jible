@@ -1,0 +1,391 @@
+.container {
+  height: 0;
+}
+
+.img {
+  position: relative;
+  top: -130px;
+  width: 100%;
+  height: 95vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(43%);
+          filter: brightness(43%);
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 370px;
+  background-color: rgba(0, 0, 0, 0.753);
+  -webkit-filter: blur(42px);
+          filter: blur(42px);
+  bottom: 140px;
+  right: 15px;
+  opacity: 0.9;
+  overflow-x: hidden;
+}
+
+.overdark {
+  position: absolute;
+  width: 100%;
+  height: 89px;
+  background-color: #000;
+  -webkit-filter: blur(22px);
+          filter: blur(22px);
+  bottom: 174px;
+  left: -75px;
+  opacity: 1;
+}
+
+.bricol {
+  color: #f8f2f2;
+  font-family: "Ropa Sans", sans-serif;
+  font-weight: 300;
+  position: absolute;
+  top: 3%;
+  left: 9%;
+  margin: 2px;
+}
+
+.square {
+  width: 25px;
+  height: 37px;
+  position: absolute;
+  top: 29.4px;
+  left: 184px;
+  margin-left: 20px;
+}
+
+.sign {
+  position: absolute;
+  width: 160px;
+  height: 42px;
+  left: 885px;
+  top: 30px;
+  background: #419D78;
+  border: none;
+  border-radius: 4px;
+  color: #f2f2f2;
+  font-family: "Ropa Sans", sans-serif;
+  font-weight: 400;
+}
+
+.log {
+  position: absolute;
+  width: 160px;
+  height: 42px;
+  left: 1070px;
+  top: 30px;
+  border: none;
+  color: #000;
+  font-family: "Ropa Sans", sans-serif;
+  font-weight: bold;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.texty {
+  position: absolute;
+  width: 798px;
+  height: 80px;
+  left: 234px;
+  top: 353px;
+  font-family: "Ropa Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+  color: #fffdfd;
+}
+
+.greenbtn {
+  position: absolute;
+  width: 350px;
+  height: 62px;
+  left: 265px;
+  top: 470px;
+  border: none;
+  font-family: "Ropa Sans", sans-serif;
+  font-weight: 400;
+  color: #f2f2f2;
+  background: #419D78;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 19.3px;
+}
+
+#customer {
+  position: absolute;
+  width: 350px;
+  height: 62px;
+  left: 283px;
+  top: 486px;
+  color: #f4f4f4;
+}
+
+#buyer {
+  position: absolute;
+  width: 4px;
+  height: 10px;
+  left: 560px;
+  top: 486px;
+  font-weight: 700;
+  color: #f4f4f4;
+}
+
+.whitebtn {
+  position: absolute;
+  width: 350px;
+  height: 62px;
+  left: 645px;
+  top: 470px;
+  font-family: "Ropa Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19.3px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 4px;
+}
+
+#worker {
+  position: absolute;
+  width: 350px;
+  height: 62px;
+  left: 665px;
+  top: 484.5px;
+  color: #000;
+}
+
+#bricoler {
+  position: absolute;
+  height: 62px;
+  right: 293px;
+  top: 485px;
+  font-weight: 700;
+  color: #000;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: none;
+}
+
+body {
+  line-height: 1.6;
+}
+
+.second-part {
+  background-color: #fff;
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  top: 80.7%;
+}
+
+.title {
+  position: absolute;
+  width: 173px;
+  height: 36px;
+  left: 42.9%;
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 36px;
+  color: #000;
+  margin-top: 60px;
+}
+
+.sekhra {
+  position: absolute;
+  width: 179px;
+  height: 26px;
+  left: 240px;
+  top: 236px;
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.desc {
+  position: absolute;
+  width: 262px;
+  height: 26px;
+  left: 240px;
+  top: 274px;
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+  color: #000;
+}
+
+.order {
+  position: absolute;
+  width: 179px;
+  height: 26px;
+  left: 58%;
+  top: 315px;
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.serve {
+  position: absolute;
+  width: 149px;
+  height: 26px;
+  left: 734px;
+  top: 367px;
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+  color: #000;
+}
+
+.time {
+  position: absolute;
+  width: 292px;
+  height: 52px;
+  left: 58%;
+  top: 73%;
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 26px;
+  /* or 144% */
+  color: #000;
+}
+
+.micro {
+  position: absolute;
+  width: 292px;
+  height: 52px;
+  left: 58%;
+  top: 79%;
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 26px;
+  /* or 144% */
+  color: #000;
+}
+
+.third-part {
+  width: 100%;
+  height: 319.6px;
+  background-color: #419D78;
+  position: absolute;
+  top: 160%;
+}
+
+.app {
+  width: 39%;
+  position: absolute;
+  top: -92%;
+  height: 643px;
+  left: 2%;
+}
+
+.track {
+  position: absolute;
+  width: 23%;
+  height: 52px;
+  left: 43%;
+  top: 53px;
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 36px;
+  color: #f2f2f2;
+}
+
+.getin {
+  width: 205px;
+  height: 225px;
+  position: absolute;
+  left: 43%;
+  top: 22%;
+}
+
+.apple {
+  width: 250px;
+  height: 139px;
+  position: absolute;
+  left: 58%;
+  top: 42%;
+}
+
+.bottom-nav {
+  position: absolute;
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 13vh;
+  top: 195%;
+}
+
+ul {
+  position: absolute;
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 17px;
+  color: #000;
+  position: absolute;
+  left: 54%;
+  top: 20%;
+}
+
+ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  color: #000;
+  text-align: center;
+  padding: 44px 26px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 80px;
+}
+
+.jibli-f {
+  position: absolute;
+  font-family: "Ropa Sans";
+  font-weight: 400;
+  font-size: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 21%;
+  left: 13%;
+}
+
+.jible-logo {
+  height: 77px;
+  position: absolute;
+  -ms-flex-align: center;
+  top: 35%;
+  left: 21%;
+}
+/*# sourceMappingURL=style.css.map */
