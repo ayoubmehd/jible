@@ -180,6 +180,29 @@ body {
   line-height: 1.6;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 17px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px #f2f2f2;
+          box-shadow: inset 0 0 5px #f2f2f2;
+  border-radius: 50px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #419D78;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #275e48;
+}
+
 .second-part {
   background-color: #fff;
   width: 100%;
@@ -363,7 +386,13 @@ ul li {
   padding: 44px 26px;
   text-decoration: none;
   font-size: 18px;
+  font-weight: bold;
   margin-right: 80px;
+}
+
+ul li:hover {
+  color: #38bb87;
+  border-radius: 15px;
 }
 
 .jibli-f {
@@ -387,5 +416,259 @@ ul li {
   -ms-flex-align: center;
   top: 35%;
   left: 21%;
+}
+
+.pop-up {
+  position: absolute;
+  width: 540px;
+  height: 276px;
+  border-radius: 4px;
+  top: 20%;
+  left: 29%;
+  background-color: #f2f2f2;
+  display: none;
+}
+
+.lOgin {
+  position: absolute;
+  width: 72px;
+  height: 36px;
+  left: 18%;
+  top: 58px;
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 36px;
+  color: #000;
+}
+
+.service {
+  position: absolute;
+  width: 157px;
+  height: 17px;
+  left: 18%;
+  top: 38%;
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+  color: #909090;
+}
+
+#fb-login {
+  position: absolute;
+  width: 350px;
+  height: 62px;
+  left: 18%;
+  top: 59%;
+  background: #1356A4;
+  border-radius: 4px;
+  border: none;
+  color: #f2f2f2;
+  font-size: 23px;
+}
+
+.flur {
+  border-radius: 50%;
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  top: -19px;
+  left: 517px;
+  background: #242424;
+  opacity: 0.9;
+  border: none;
+}
+
+.x {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 7px;
+  left: 32%;
+  /* border: 2px solid #FFFFFF; */
+  font-size: 21px;
+  color: #f2f2f2;
+  opacity: 1;
+}
+
+/*sign up page code */
+.page {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.panner {
+  background-color: #f2f2f2;
+  width: 91%;
+  height: 70vh;
+  position: relative;
+  top: 16%;
+  margin-left: 7.2%;
+  border: none;
+  border-top-right-radius: 15px 15px;
+  border-bottom-right-radius: 15px 15px;
+  -webkit-box-shadow: 10px 85px 85px 35px #d7d7d7;
+          box-shadow: 10px 85px 85px 35px #d7d7d7;
+}
+
+.left {
+  border-top-left-radius: 15px 15px;
+  border-bottom-left-radius: 15px 15px;
+  border: none;
+  background-color: #419D78;
+  width: 32.27%;
+  margin-left: -3.9%;
+  height: 70vh;
+}
+
+.imgleft {
+  width: 138.2%;
+  margin-left: -5.9%;
+  height: 70vh;
+  border-top-left-radius: 15px 15px;
+  border-bottom-left-radius: 15px 15px;
+}
+
+.register {
+  top: -91%;
+  font-size: 45px;
+  position: relative;
+  margin-left: 58%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #419D78;
+  display: inline-block;
+  left: -2%;
+}
+
+.signinp {
+  position: relative;
+  bottom: 152%;
+  display: inline;
+}
+
+#firstname {
+  top: 47%;
+  background-color: #86948f;
+  position: relative;
+  height: 62px;
+  width: 266px;
+  left: 46.3%;
+  margin-top: 1%;
+  margin-right: 2%;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+#firstname::-webkit-input-placeholder {
+  font-size: 25px;
+  padding: 25px;
+  color: #f2f2f2;
+}
+
+#firstname:-ms-input-placeholder {
+  font-size: 25px;
+  padding: 25px;
+  color: #f2f2f2;
+}
+
+#firstname::-ms-input-placeholder {
+  font-size: 25px;
+  padding: 25px;
+  color: #f2f2f2;
+}
+
+#firstname::placeholder {
+  font-size: 25px;
+  padding: 25px;
+  color: #f2f2f2;
+}
+
+#lastname {
+  top: 47%;
+  background-color: #86948f;
+  position: relative;
+  height: 62px;
+  width: 266px;
+  left: 46.5%;
+  margin-top: 13%;
+  margin-right: 2%;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+#lastname::-webkit-input-placeholder {
+  font-size: 25px;
+  padding: 25px;
+  color: #f2f2f2;
+}
+
+#lastname:-ms-input-placeholder {
+  font-size: 25px;
+  padding: 25px;
+  color: #f2f2f2;
+}
+
+#lastname::-ms-input-placeholder {
+  font-size: 25px;
+  padding: 25px;
+  color: #f2f2f2;
+}
+
+#lastname::placeholder {
+  font-size: 25px;
+  padding: 25px;
+  color: #f2f2f2;
+}
+
+#gmail {
+  left: 46.2%;
+  top: 50%;
+  background-color: #86948f;
+  position: relative;
+  height: 65px;
+  width: 565px;
+  margin-right: 392px;
+  margin-left: 0%;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+#phonenumber {
+  top: 53%;
+  background-color: #86948f;
+  position: relative;
+  height: 65px;
+  width: 565px;
+  left: 46.2%;
+  margin-right: 392px;
+  margin-left: 0%;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+#password {
+  background-color: #86948f;
+  position: relative;
+  height: 62px;
+  width: 273px;
+  left: 46.2%;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+#passwordagain {
+  margin-right: 7%;
+  background-color: #86948f;
+  position: relative;
+  height: 62px;
+  width: 266px;
+  left: 48.19%;
+  margin-top: 30.5%;
+  border: 2px solid #000;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */

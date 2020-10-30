@@ -19,17 +19,17 @@
         <h1 class="bricol">Bricol</h1>
         <img src="img/carre.png" class="square" alt="">
     </div>
-    <button class="sign">Sign Up</button>
-    <button class="log">Login</button>
+    <a href="sign-up.html"><button class="sign" style="cursor: pointer;">Sign Up</button></a>
+    <button class="log" onclick="edit()" onclick="validation()" style="cursor: pointer;">Login</button>
     <h1 class="texty">An on demand service that connects you with Bricoleurs through the app</h1>
     
     <form>
-    <button class="greenbtn">Sign Up as Consumer</button>
-    <i class="fas fa-shopping-cart fa-2x" id="customer"></i>
-    <i class="fas fa-arrow-right fa-2x" id="buyer"></i>
-    <button class="whitebtn">Sign Up as Bricoleur</button>
-    <i class="fas fa-user-alt fa-2x" id="worker"></i>
-    <i class="fas fa-arrow-right fa-2x" id="bricoler"></i>
+    <button class="greenbtn" style="cursor: pointer;">Sign Up as Consumer</button>
+    <i class="fas fa-shopping-cart fa-2x" style="cursor: pointer;" id="customer"></i>
+    <i class="fas fa-arrow-right fa-2x" style="cursor: pointer;" id="buyer"></i>
+    <button class="whitebtn" style="cursor: pointer;">Sign Up as Bricoleur</button>
+    <i class="fas fa-user-alt fa-2x" style="cursor: pointer;" id="worker"></i>
+    <i class="fas fa-arrow-right fa-2x" style="cursor: pointer;" id="bricoler"></i>
     </form>
     </header>
 
@@ -45,18 +45,29 @@
     <div class="third-part">
         <img src="img/app.png" class="app" alt="">
         <h1 class="track">Track your deliveries with the Jible App</h1>
-        <img src="img/getin.png" class="getin" alt="">
-        <img src="img/iphone.png" class="apple" alt="">
+        <a href="#"><img src="img/getin.png" class="getin" alt=""></a>
+        <a href="#"><img src="img/iphone.png" class="apple" alt=""></a>
     </div>
     <div class="bottom-nav">
         <h1 class="jibli-f">Jible</h1>
         <img src="img/po.png" class="jible-logo" alt="">
         <ul>
-            <li>Privacy Policy</li>
-            <li>Terms</li>
-            <li>About</li>
+            <a href="#" class="list"><li>Privacy Policy</li></a>
+            <a href="#"><li>Terms</li></a>
+            <a href="#"><li>About</li></a>
         </ul>
     </div>
+    <div class="pop-up" id="pop">
+        <h1 class="lOgin">Login</h1>
+        <p class="service">Welcome to Jible service</p>
+        <button id="fb-login">Login With Facebook</button>
+        <button class="flur" id="flur" onclick="remove()">
+        <span class="x" style="cursor: pointer;">&#10005;</span>
+        </button>
+    </div>
+    <script src="toto.js"></script>
+    <script src="sweetalert.min.js"></script>
     <link rel="stylesheet" href="style.css">
+ 
 </body>
 </html>
