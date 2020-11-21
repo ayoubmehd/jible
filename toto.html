@@ -1,73 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap-reboot.min.css"
+        integrity="sha512-YmRhY1UctqTkuyEizDjgJcnn0Knu5tdpv09KUI003L5tjfn2YGxhujqXEFE7fqFgRlqU/jeTI+K7fFurBnRAhg=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap-grid.min.css"
+        integrity="sha512-QTQigm89ZvHzwoJ/NgJPghQPegLIwnXuOXWEdAjjOvpE9uaBGeI05+auj0RjYVr86gtMaBJRKi8hWZVsrVe/Ug=="
+        crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/8c39ad8081.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
+
 <body>
-    <header class="container">      
-      
-        <div class="background">
-            <img src="img/jibli.jpg" class="img" alt="">
-            <div class="overlay"></div>
-            <div class="overdark"></div>
-      </div>
-      <div class="logo">
-        <h1 class="bricol">Bricol</h1>
-        <img src="img/carre.png" class="square" alt="">
-    </div>
-    <a href="sign-up.html"><button class="sign" style="cursor: pointer;">Sign Up</button></a>
-    <button class="log" onclick="edit()" onclick="validation()" style="cursor: pointer;">Login</button>
-    <h1 class="texty">An on demand service that connects you with Bricoleurs through the app</h1>
-    
-    <form>
-    <button class="greenbtn" style="cursor: pointer;">Sign Up as Consumer</button>
-    <i class="fas fa-shopping-cart fa-2x" style="cursor: pointer;" id="customer"></i>
-    <i class="fas fa-arrow-right fa-2x" style="cursor: pointer;" id="buyer"></i>
-    <button class="whitebtn" style="cursor: pointer;">Sign Up as Bricoleur</button>
-    <i class="fas fa-user-alt fa-2x" style="cursor: pointer;" id="worker"></i>
-    <i class="fas fa-arrow-right fa-2x" style="cursor: pointer;" id="bricoler"></i>
-    </form>
+    <header class="main-header">
+        <nav class="main-navbar">
+            <div class="container d-flex">
+                <div class="logo">
+                    <h2 class="">Bricol</h2>
+                    <img src="img/carre.png" class="" alt="">
+                </div>
+                <a class="button" href="sign-up.html">Sign Up</a>
+                <a class="button" onclick="edit()" onclick="validation()" style="cursor: pointer;">Login</a>
+            </div>
+        </nav>
+        <div class="cta">
+            <div class="container d-flex align-items-center">
+                <h1 class="heading">An on demand service that connects you with Bricoleurs through the app</h1>
+                <form class="d-flex justify-content-center align-items-center">
+                    <button class="button d-flex" style="cursor: pointer;">
+                        <i class="fas fa-shopping-cart" style="cursor: pointer;" id="customer"></i>
+                        <span>Sign Up as Consumer</span>
+                        <i class="fas fa-arrow-right" style="cursor: pointer;" id="buyer"></i>
+                    </button>
+
+                    <button class="button d-flex" style="cursor: pointer;">
+                        <i class="fas fa-user-alt" style="cursor: pointer;" id="worker"></i>
+                        <span>Sign Up as Bricoleur</span>
+                        <i class="fas fa-arrow-right" style="cursor: pointer;" id="bricoler"></i>
+                    </button>
+
+                </form>
+            </div>
+        </div>
+        <img src="img/jibli.jpg" class="img" alt="">
     </header>
 
-    <div class="second-part">
-        <h1 class="title">How it Works</h1>
-        <h1 class="sekhra">Request you Skhera</h1>
-        <p class="desc">Choosing A Quality Cookware Set</p>
-        <h1 class="order">EASY ORDERING</h1>
-        <p class="serve">Serve Eggs Anytime</p>
-        <h1 class="time">REAL-TIME TRACKING</h1>
-        <p class="micro">Microwave Cooking Is The Wave Of The Future</p>
+    <div class="second-part mt-4 mb-5">
+        <div class="container">
+            <h2 class="title">How it Works</h2>
+            <h3 class="sekhra">Request you Skhera</h3>
+            <p class="desc">Choosing A Quality Cookware Set</p>
+            .<div class="row justify-content-end">
+                <div class="col-xl-5">
+                    <h3 class="order">EASY ORDERING</h3>
+                    <p class="serve">Serve Eggs Anytime</p>
+                    <h3 class="time">REAL-TIME TRACKING</h3>
+                    <p class="micro">Microwave Cooking Is The Wave Of The Future</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="third-part">
-        <img src="img/app.png" class="app" alt="">
-        <h1 class="track">Track your deliveries with the Jible App</h1>
-        <a href="#"><img src="img/getin.png" class="getin" alt=""></a>
-        <a href="#"><img src="img/iphone.png" class="apple" alt=""></a>
+    <div class="third-part d-flex align-items-center">
+        <div class="container">
+
+            <div class="row justify-content-end">
+                <div class="col-sm-12 order-2 d-flex justify-content-center">
+                    <img src="img/app.png" class="app" alt="">
+                </div>
+                <div class="col col-xl-8 my-5">
+                    <h1 class="track">Track your deliveries with the Jible App</h1>
+                    <div class="badges d-flex justify-content-center justify-content-xl-start">
+                        <a href="#"><img src="img/google-play-badge.png" class="getin" alt=""></a>
+                        <a href="#"><img src="img/apple-store-badge.svg" class="apple" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="bottom-nav">
-        <h1 class="jibli-f">Jible</h1>
-        <img src="img/po.png" class="jible-logo" alt="">
-        <ul>
-            <a href="#" class="list"><li>Privacy Policy</li></a>
-            <a href="#"><li>Terms</li></a>
-            <a href="#"><li>About</li></a>
-        </ul>
+    <div class="bottom-nav mt-2 mb-2">
+        <div class="container">
+            <div class="row">
+                <div class="logo col-md-6">
+                    <h2 class="">Bricol</h2>
+                    <img src="img/po.png" class="" alt="">
+                </div>
+                <ul class="d-flex justify-content-end col-md-6">
+                    <li>
+                        <a href="#" class="list">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Terms
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            About
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
     </div>
     <div class="pop-up" id="pop">
         <h1 class="lOgin">Login</h1>
         <p class="service">Welcome to Jible service</p>
         <button id="fb-login">Login With Facebook</button>
         <button class="flur" id="flur" onclick="remove()">
-        <span class="x" style="cursor: pointer;">&#10005;</span>
+            <span class="x" style="cursor: pointer;">&#10005;</span>
         </button>
     </div>
     <script src="toto.js"></script>
     <script src="sweetalert.min.js"></script>
     <link rel="stylesheet" href="style.css">
- 
+
 </body>
+
 </html>

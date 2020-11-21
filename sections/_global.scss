@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: "Ropa Sans",
+        sans-serif;
+    font-size: 20px;
+}
+
+button,
+.button {
+    min-width: 160px;
+    min-height: 42px;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    background: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: 42px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    h2 {
+        color: #FFF;
+        margin: 0;
+        margin-right: .7rem;
+    }
+}
